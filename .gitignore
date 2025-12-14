@@ -1,0 +1,48 @@
+# Data
+data.zip
+*.zip
+military_object_dataset/
+
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.onnx
+*.engine
+models/
+
+# Training runs
+runs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Results (optional - uncomment if you want to keep)
+# results/yolo_predictions/
+# results/predictions.zip
+
+# Logs
+*.log
+wandb/

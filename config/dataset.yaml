@@ -1,0 +1,48 @@
+# Military Object Detection Dataset Configuration
+# Compatible with Ultralytics YOLOv8
+
+# Dataset root path - Update this to your local path
+path: ../military_object_dataset
+
+# Train/Val/Test splits
+train: train/images
+val: val/images
+test: test/images
+
+# Number of classes
+nc: 12
+
+# Class names (indexed 0-11)
+names:
+  0: camouflage_soldier
+  1: weapon
+  2: military_tank
+  3: military_truck
+  4: military_vehicle
+  5: civilian
+  6: soldier
+  7: civilian_vehicle
+  8: military_artillery
+  9: trench
+  10: military_aircraft
+  11: military_warship
+
+# Class categories for analysis
+categories:
+  military_personnel:
+    - camouflage_soldier
+    - soldier
+  military_ground_vehicles:
+    - military_tank
+    - military_truck
+    - military_vehicle
+    - military_artillery
+  military_aerial_naval:
+    - military_aircraft
+    - military_warship
+  civilian:
+    - civilian
+    - civilian_vehicle
+  equipment:
+    - weapon
+    - trench

@@ -1,0 +1,83 @@
+{
+  "model_name": "best_model",
+  "overall_metrics": {
+    "mAP50": 0.42579034790674974,
+    "mAP50-95": 0.2609480165111387,
+    "precision": 0.6027971328679591,
+    "recall": 0.41005883356832895
+  },
+  "per_class_metrics": [
+    {
+      "Class ID": 10,
+      "Class Name": "military_aircraft",
+      "AP@0.5": 0.820561102838498,
+      "AP@0.5:0.95": 0.5933373487963423
+    },
+    {
+      "Class ID": 2,
+      "Class Name": "military_tank",
+      "AP@0.5": 0.8159197048313345,
+      "AP@0.5:0.95": 0.5151918298081345
+    },
+    {
+      "Class ID": 0,
+      "Class Name": "camouflage_soldier",
+      "AP@0.5": 0.6741993578504529,
+      "AP@0.5:0.95": 0.3296780785301907
+    },
+    {
+      "Class ID": 6,
+      "Class Name": "soldier",
+      "AP@0.5": 0.6293154554228992,
+      "AP@0.5:0.95": 0.328922313367329
+    },
+    {
+      "Class ID": 1,
+      "Class Name": "weapon",
+      "AP@0.5": 0.4788366445555296,
+      "AP@0.5:0.95": 0.31898764483496855
+    },
+    {
+      "Class ID": 3,
+      "Class Name": "military_truck",
+      "AP@0.5": 0.40350748708003337,
+      "AP@0.5:0.95": 0.2524271531290555
+    },
+    {
+      "Class ID": 4,
+      "Class Name": "military_vehicle",
+      "AP@0.5": 0.39512702780371733,
+      "AP@0.5:0.95": 0.28406593169133026
+    },
+    {
+      "Class ID": 7,
+      "Class Name": "civilian_vehicle",
+      "AP@0.5": 0.2552843717671501,
+      "AP@0.5:0.95": 0.1341926700205644
+    },
+    {
+      "Class ID": 8,
+      "Class Name": "military_artillery",
+      "AP@0.5": 0.21094267482463191,
+      "AP@0.5:0.95": 0.1136252114446105
+    },
+    {
+      "Class ID": 5,
+      "Class Name": "civilian",
+      "AP@0.5": 0.0,
+      "AP@0.5:0.95": 0.0
+    },
+    {
+      "Class ID": 9,
+      "Class Name": "trench",
+      "AP@0.5": 0.0,
+      "AP@0.5:0.95": 0.0
+    },
+    {
+      "Class ID": 11,
+      "Class Name": "military_warship",
+      "AP@0.5": 0.0,
+      "AP@0.5:0.95": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "error_taxonomy": {
+    "true_positive": 115,
+    "localization_error": 125,
+    "classification_error": 9,
+    "duplicate": 6,
+    "background_error": 246,
+    "missed": 388
+  },
+  "calibration_ece": 0.2566021815592411,
+  "optimal_threshold": 0.30000000000000004,
+  "optimal_f1": 0.29220779220779225,
+  "size_performance": [
+    {
+      "size_category": "Small (<1%)",
+      "sum": 0,
+      "count": 84,
+      "mean": 0.0
+    },
+    {
+      "size_category": "Medium (1-10%)",
+      "sum": 12,
+      "count": 105,
+      "mean": 0.11428571428571428
+    },
+    {
+      "size_category": "Large (>10%)",
+      "sum": 67,
+      "count": 157,
+      "mean": 0.4267515923566879
+    }
+  ]
+}
